@@ -135,7 +135,7 @@ function GeminiChat() {
                 <>
                   <div className="flex-1"></div>
                   <div className="flex items-start space-x-3 max-w-3xl">
-                    <div className="bg-zinc-100 text-zinc-900 rounded-2xl px-4 py-3 shadow-sm border border-zinc-200">
+                    <div className="bg-zinc-900 text-zinc-100 rounded-2xl px-4 py-3 shadow-sm border border-zinc-200">
                       {msg.text && (
                         <div className="prose prose-sm max-w-none prose-zinc">
                           <Markdown>{msg.text}</Markdown>
